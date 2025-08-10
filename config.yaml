@@ -1,0 +1,55 @@
+# SEM Plan Generator Configuration
+# Company: [Your Company Name]
+# Generated: 2025-08-10
+
+# Brand Information
+brand:
+  name: "CubeHQ"
+  website: "https://leetcode.com/problemset/"
+  industry: "AI Workspace & Productivity"
+
+# Competitor Analysis
+competitor:
+  name: "Notion"
+  website: "https://lms.iimkottayam.ac.in/login/index.php"
+
+# Service Locations
+service_locations:
+  - "New York"
+  - "San Francisco" 
+  - "Los Angeles"
+  - "Chicago"
+  - "Boston"
+
+# Budget Configuration (Monthly)
+budgets:
+  total_monthly_budget: 15000
+  shopping_ads_budget: 5000
+  search_ads_budget: 7000
+  pmax_ads_budget: 3000
+
+# Campaign Settings
+campaign_settings:
+  target_cpa: 50
+  target_roas: 400
+  daily_budget_distribution:
+    shopping_ads: 167  # $5000/30 days
+    search_ads: 233    # $7000/30 days
+    pmax_ads: 100      # $3000/30 days
+
+# Keyword Settings
+keyword_settings:
+  min_search_volume: 100
+  max_competition_level: "High"
+  target_keywords_count: 50
+  match_types:
+    - "Exact"
+    - "Phrase" 
+    - "Broad"
+
+# Output Settings
+output:
+  generate_excel: true
+  generate_json: true
+  include_charts: true
+  file_prefix: "sem_plan"
