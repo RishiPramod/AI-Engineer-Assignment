@@ -56,7 +56,7 @@ streamlit run app.py
 ```
 
 ### Option 2: Use the Deployed Version
-Simply visit the live app at: **[your-streamlit-app-url.streamlit.app](https://sem-campaign-builder.streamlit.app/)**
+Simply visit the live app at: **[streamlit.app](https://sem-campaign-builder.streamlit.app/)**
 
 ## Usage
 
@@ -294,4 +294,5 @@ streamlit run app.py
 - Optimized for SEM campaign planning and budget allocation  
 
 > Tip: show the CSV preview in the app right after generating the plan, then render the Download button immediately below the table so users can review before downloading.
+
 
